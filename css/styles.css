@@ -37,12 +37,16 @@ body {
   }
 }
 img {
-  width: 6em;
-  height: 4em;
-  border-radius: 2em;
+  padding: 4px;
+  border: 1px solid #eaeaea;
+  display: inline-block;
+  width: 5rem;
+  height: 5rem;
+  margin: 0 auto;
+  border-radius: 50%;
 }
 .link {
-  margin-top: 20px;
+  margin-top: 10px;
   font-size: 1.25rem;
 }
 .link > a {
@@ -67,7 +71,7 @@ img {
 .bubble {
   overflow: hidden;
   display: inline-block;
-  margin: 0 0 .125rem 0;
+  margin: 0 0 .5rem 0;
   padding: .5rem .85rem;
   line-height: 1.25rem;
   border-radius: 1.25rem;
@@ -88,10 +92,6 @@ img {
   left: -.5rem;
   width: .5rem;
   height: .5rem;
-  background-image: url(../img/corner.svg);
-  background-size: .5rem .5rem;
-  background-position: .5rem 0;
-  background-repeat: no-repeat;
   transition: background-position .15s ease-in;
 }
 .bubble.cornered:after {
